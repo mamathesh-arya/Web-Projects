@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Corner</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/styleForm.css">
+</head>
+<body>
+    <h2>Student Registration Form</h2>
+    
+<div class="container">
+    <form id="form" action="./buttons.html" method="get">
+        <div class="form-fild">
+            <label for="name"> Name </label>
+                <input type="text" name="name" id="name" autocomplete="off" placeholder="First Name">
+                <small></small>
+        </div>
+
+        <div class="form-fild">
+            <label for="father">Father Name</label>
+                <input type="text" name="father" id="father" placeholder="FatherName" autocomplete="off">
+                <small></small>
+        </div>
+
+        <div class="form-fild">
+            <label for="mother">Mother Name</label>
+                <input type="text" name="mother" id="mother" placeholder="Mother Name" autocomplete="off" >
+                <small></small>
+        </div>
+
+
+        <div class="form-fild">
+            <label for="dob">DOB</label>
+            <input type="date" min="01/01/2000" id="dob" name="dob">
+            <small></small>
+        </div>
+        
+        <div class="form-fild">
+            <label for="gender" id="gender">Male</label>
+            <input type="radio" name="gender" checked>
+
+            <label for="gender" id="gender">Female</label>
+            <input type="radio" name="gender" >
+            <small></small>
+        </div>
+
+        <p class="break-line"> Communication Details
+            <hr>
+        </p>
+        <div class="form-fild">
+            <label for="tempAdd"> Address</label>
+            <input type="text" name="tempAdd" id="tempAdd1" placeholder="Provide Communication Address Here" max="50">
+            <input type="text" name="tempAdd" id="tempAdd2">
+            <input type="text" name="tempAdd" id="tempAdd3">
+            <small></small>
+        </div>
+
+        <div class="form-fild">
+            <label for="PerAdd"> Permanent Address <span>(Same as Above )</span> 
+                <input type="checkbox" id="checking" onclick="copy()"> 
+            
+            </label>
+           
+            <input type="text" name="perAdd" id="perAdd1"  max="50">
+            <input type="text" name="perpAdd" id="perAdd2">
+            <input type="text" name="perAdd" id="perAdd3">
+            <small></small>
+        </div>
+        <div class="form-fild">
+            <label for="contact">Phone No </label>
+            <input type="tel" name="contact" id="contact">
+            <small></small>
+        </div>
+        <div class="form-fild">
+            <label for="cource">Cource :
+                <select name="cource" id="cource">
+                    <option value="puc">PUC</option>
+                    <option value="ug">UG</option>
+                </select>
+                <select name="puc" id="puc">
+                    <option value="pcmb">PCMB</option>
+                </select>
+              
+                
+            </label>
+            
+            <small></small>
+        </div>
+       <footer>
+        <button type="submit" class="btn">Submit</button>
+        <button type="reset" class="btn" onclick="resetit()">Reset</button>
+       </footer>
+
+    </form>
+</div>
+  <script src="./Js/scriptForm.js"></script>
+</body>
+</html>

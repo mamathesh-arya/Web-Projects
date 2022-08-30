@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons</title>
+    <style>
+      
+        body h2{
+            display: flex;
+            font-weight: 800;
+            font-size: 2.5rem;
+            margin: 6px;
+           
+        }
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      
+        }
+        .youtube{
+          
+            background-color: rgb(255, 0, 0);
+            color: white;
+             padding: 8px;
+             margin: 8px;
+             font-size: 1.5rem;
+             border-radius: 6px;
+             border: none;
+             cursor: pointer;
+             box-shadow:3px 3px 5px rgba(0,0,0,0.5)
+             
+        }
+        .youtube:hover{
+            opacity: 0.65;
+            transition: opacity 200ms;
+        }
+        .youtube:active {
+            background-color: rgba(255, 0, 0,0.5);;
+        }
+
+        .tweet{
+            background-color:cornflowerblue;
+            color: white;
+             padding: 8px;
+             margin: 8px;
+             font-size: 1.5rem;
+             border-radius: 6px;
+             border: none;
+             cursor: pointer;
+             box-shadow:3px 3px 5px rgba(0,0,0,0.5)
+        }
+        .tweet:hover{
+            opacity: 0.8;
+            transition: opacity 200ms;
+        }
+        .tweet:active{
+           color: white;
+           background-color: black;
+        }
+
+        .amz{
+            font-family:sans-serif;
+            background-color:rgb(244, 244, 65); 
+            font-weight: bold;
+            width: 270px;
+            height: 50px;;
+            padding: 10px;
+            margin: 8px;
+            font-size: 1.5rem;
+            border-radius: 25px;
+            border: none;
+            cursor: pointer;
+            box-shadow:3px 3px 5px rgba(0,0,0,0.5)
+        }
+        .amz:hover{
+            opacity: 0.7;
+            transition: opacity 200ms;
+        }
+        .gs{
+            font-family:sans-serif;
+            background-color:rgb(146, 40, 199);
+            width: 180px;
+            height: 70px;
+            font-weight: bold;
+            color: white;
+            padding: 15px;
+            margin: 8px;
+            margin-right: 20px;;
+            font-size: 1.5rem;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            box-shadow:3px 3px 5px rgba(0,0,0,0.5)
+        }
+        .gs:hover{
+            opacity: 0.7;
+            transition: opacity 200ms;
+        }
+        .dw{
+            width: 180px;
+            height: 70px;
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-family:sans-serif;
+            background-color: white;
+           
+            border-radius: 5px;
+            padding: 15px;
+            cursor: pointer;
+            box-shadow:3px 3px 5px rgba(0,0,0,0.5)
+        }
+        .dw:hover{
+            opacity: 0.7;
+            transition: opacity 200ms;
+        }
+
+    </style>
+</head>
+<body>
+
+        <div>
+            <h2>Youtube</h2>
+            <button class="youtube">Subscribe</button>
+        </div>
+        <br>
+        <div>
+            <h2>Tweeter</h2>
+            <button class="tweet">JOIN</button>
+        </div>
+        <br>
+        <div>
+            <h2>Amazon add to cart </h2>
+            <button class="amz">Add to Cart</button>
+        </div>
+        <br>
+        <div>
+            <h2>Bootstrap </h2>
+            <button class="gs">Get Started</button>
+            <button class="dw">Download</button>
+        </div>
+
+</body>
+</html>
