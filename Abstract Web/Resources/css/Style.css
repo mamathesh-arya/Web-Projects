@@ -1,14 +1,14 @@
 @font-face {
-    font-family: 'Abstract font 2';
-    src: url('../Fonts/Abstract\ font\ 2.woff2') format('woff2');
+    font-family: 'GT America Bold';
+    src: url('../Fonts/GT\ America\ Bold/GT America Bold.ttf') format('ttf');
 }
 @font-face{
-    font-family: 'Abstract web font Bold';
-    src: url('../Fonts/Abstract\ web\ font\ Bold.woff2') format('woff2')
+    font-family: 'GT America Bold Italic';
+    src: url('../Fonts/GT\ America\ Bold\ Italic/GT America Bold Italic.ttf') format('ttf')
 }
 @font-face {
-    font-family: 'fontawesome-webfont';
-    src: url('../css/fontawesome-webfont') format('woff2');
+    font-family: 'GT America Regular';
+    src: url('../Fonts/GT\ America\ Regular/GT America Regular.ttf') format('woff2');
 
 }
 *{
@@ -21,10 +21,13 @@ body{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'fontawesome-webfont';
+    font-family: 'GT America Regular';
     
 }
-
+h4{
+    margin: 0;
+    padding: 0;
+}
 a{
     text-decoration: none;
     color: #fff;
@@ -35,6 +38,10 @@ p{
     margin: 0;
     padding: 0;
     
+}
+h1{
+    margin: 0;
+    padding: 0;
 }
 .header{
 
@@ -50,11 +57,11 @@ p{
 
     
     color:#fff;
-    font-family: 'Abstract web font Bold',sans-serif;
+    font-family: 'GT America Bold',serif;
     font-size: 23px;
 }
 .logo{
-    font-family: 'Abstract web font Bold',sans-serif;
+   
    display: flex;
    text-align: center;
    align-items: center;
@@ -76,7 +83,8 @@ p{
 
     
     margin: 0 10px;
-    font-family: 'Abstract web font Bold',sans-serif;
+    font-family: 'GT America Regular',serif;
+    font-weight: 600;
     
 }
 .logo #line{
@@ -110,7 +118,7 @@ p{
 }
 
 .left-bar button{
-    font-family: 'Abstract font 2';
+    font-family: 'GT America Regular';
     text-align: center;
     align-items: center;
     align-content: center;
@@ -149,3 +157,80 @@ p{
 .left-bar #submit-btn{
     cursor: pointer;
 }
+
+.how-help{
+    font-family: 'GT America Regular',serif;
+    background-color: #dadbf1;
+    padding: 115px 80px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.search-bar-main input[type="text"]{
+    margin: 20px 0;
+    width: 720px;
+    height: 60px;
+    padding: 16px;
+    font-size: 20px;
+    border: 1px solid #000;
+
+    
+}
+
+.bx-right-arrow-alt{
+   position: relative;
+   right: 65px;
+   top: 10px;
+   
+ 
+   
+}
+.search-bar-main:hover{
+    
+    color: #4C5FD5;
+    transition: 0.30s;
+}
+.search-bar-main input[type="text"]:hover{
+transition: 0.30s;
+border-color: #4C5FD5;
+}
+    
+.wrap-box{
+    margin: 0;
+    font-family: 'GT America Regular',serif;
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+   
+
+}
+.ind-wrap{
+    font-family: 'GT America Regular';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 100px;
+    
+
+}
+.ind-img img{
+    width: 94px;
+    height: 94px;
+    margin-right: 20px;
+}
+.ind-txt h4{
+   
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+ .ind-txt p{
+    font-weight: 550;
+ }
