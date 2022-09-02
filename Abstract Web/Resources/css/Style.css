@@ -11,6 +11,10 @@
     src: url('../Fonts/GT\ America\ Regular/GT America Regular.ttf') format('woff2');
 
 }
+@font-face {
+    font-family: 'Gt bold';
+    src: url('../Fonts/Abstract\ web\ font\ Bold.woff2');
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -202,9 +206,8 @@ border-color: #4C5FD5;
     padding: 100px;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    
+   
     
     
    
@@ -215,22 +218,118 @@ border-color: #4C5FD5;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 550px;
-    height: 100px;
+    width: auto;
+   
     
-
+}
+.ind-txt{
+    display: block;
+    margin-right: 10px;
+    width: 750px;
+    height: 205px;
+    overflow: hidden;
+ 
+    
+}
+.ind-txt p{
+    padding: 0;
+    margin-top: 5px;
+    font-family: 'Gt bold';
+    font-size: 24px;
+    margin-right: 10px;
+}
+.ind-txt-2 p{
+    font-family: 'GT America Regular';
+ 
 }
 .ind-img img{
     width: 94px;
     height: 94px;
     margin-right: 20px;
 }
-.ind-txt h4{
-   
+.learn-more{
+    margin: 20px 0;
+}
+.learn-more a{
+    color: #4C5FD5;
     font-size: 20px;
-    font-weight: 800;
+
+}
+.learn-more a:hover{
+    text-decoration: underline;
+    
+}
+
+.footer{
+    margin: 0;
+    width: 100%;
+    /* height: 500px; */
+    background-color: black;
+    padding: 50px 100px;
+    color: white;
+   
+}
+.fblock1{
+    display: flex;
+}
+.fbx1 {
+   margin: 0 40px;
+   display: block;
+}
+
+.fbx1 h3{
+   
+    font-family: 'GT bold';
+    font-weight: 900;
+    font-size: 24px;
+}
+.fsub1 {
+
+    margin-top: 12px;
+    font-weight: 600;
+    
+}
+.fsub1 a{
+    font-size: 18px;
+    display: block;
+    line-height: 1.5;
+    
+}
+.fsub1 a:hover{
+    text-decoration: underline;
+}
+
+.fblock2{
+    font-size: 20px;
+    justify-content: flex-end;
+    display: flex;
+   
+}
+.limg .fsub1{
+    width: 400px;
+    height: 80px;
+}
+.limg img{
+    width: 40px;
+    height: 40px;
+    border-radius: 13px;
+}
+.myinfo h3{
     margin-bottom: 10px;
 }
- .ind-txt p{
-    font-weight: 550;
- }
+.myinfo p{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#aid{
+color: red;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 60px;
+margin-left: 60px;
+}
+.helpbtn{
+    float: right;
+}
+
